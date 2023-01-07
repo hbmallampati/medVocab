@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Overall layout-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/overallLayout">
+
+        <!--        Holder layout-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/cardsHolder"
+
+            >
+
+            <!--        Part1-->
+            <include
+                layout="@layout/card_word"
+                android:id="@+id/part1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="26dp"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <!--        Part2-->
+            <include
+                layout="@layout/card_word_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/wordDetailslayout"
+                android:visibility="visible"
+                android:layout_margin="15dp"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <include
+                layout="@layout/end_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/endLayout"
+                android:visibility="gone"
+                />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!--        //Common part-->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/cardsHolder"
+            android:id="@+id/bottomPart">
+
+
+        <TextView
+            android:id="@+id/masteredTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toTopOf="@+id/bottomPart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="You have mastered 3 out of 21 words"/>
+
+        <ProgressBar
+            android:id="@+id/masteredProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/masteredTv"
+            android:min="0"
+            android:max="21"
+            />
+
+
+        <TextView
+            android:id="@+id/reviewingTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/masteredProgressBar"
+            tools:text="You are reviewing 3 out of 21 words"
+            />
+
+        <ProgressBar
+            android:id="@+id/reviewingProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reviewingTv"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:min="0"
+            android:max="21"
+            />
+
+        <TextView
+            android:id="@+id/learningTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/reviewingProgressBar"
+            tools:text="You are learning 3 out of 21 words"
+            />
+
+        <ProgressBar
+            android:id="@+id/learningProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/learningTv"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="70dp"
+            android:min="0"
+            android:max="21"
+            />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

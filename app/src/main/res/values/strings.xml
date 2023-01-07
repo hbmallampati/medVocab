@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MedVocab</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MedVocab</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_study">Study</string>
+    <string name="menu_aboutus">AboutUs</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="practice_this_bt_text">Practice this set &#8594;</string>
+    <string name="tap_to_see_meaning_text">Tap to see meaning &#8594;</string>
+    <string name="i_knew_this_word_bt_text">I knew this word &#10003;</string>
+    <string name="i_didnt_knew_this_word_bt_text">I didn\'t knew this word &#10060;</string>
+
+
+    <string name="contactUs_text">MedVocab is a vocabulary building tool for those preparing for medical exams.\nIf you have any questions or feedback, please email us at helpline helper@medvocab.com and we\'ll be happy to help!</string>
+    <string name="contactus_bt_text">Contact Us &#8594;</string>
+    <string name="learnMore_text">To learn more visit our website www.fakewebsite.doesntexist.com. \nHappy learning!!
+    </string>
+    <string name="learnMore_bt_text">Learn more &#8594;</string>
+    <string name="resetAllDecksBtText">Reset all decks &#8594;</string>
+    <string name="signOutBtText">Sign out &#8594;</string>
+
+
+<!--    <string name="contactUs_text">MedVocab</string>-->
+<!--    <string name="contactus_bt_text">Contact Us</string>-->
+<!--    <string name="learnMore_text">To learn more visit our</string>-->
+<!--    <string name="learnMore_bt_text">Learn more</string>-->
+
+
+
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "991579478283",
+    "project_id": "medvocab-1f494",
+    "storage_bucket": "medvocab-1f494.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991579478283:android:cab09f0b51da25357a2a0e",
+        "android_client_info": {
+          "package_name": "com.example.medvocab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991579478283-ecloahubqc545a3jjghg5p7a5fjhklbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medvocab",
+            "certificate_hash": "f9b5b33ba657987f9794ea62841024883c1add0f"
+          }
+        },
+        {
+          "client_id": "991579478283-2bbffahcluster64kqj03dv0ulq2ska0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDInrf9UJAA9B5Tc8Ya4YE11ve-7RCA-OQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991579478283-2bbffahcluster64kqj03dv0ulq2ska0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

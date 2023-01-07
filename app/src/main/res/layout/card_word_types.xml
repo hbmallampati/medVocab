@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardMaxElevation="5dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:paddingTop="5dp"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:backgroundTint="@color/doc_bng"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/type"
+        android:text="Common words I"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingBottom="42dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+
+        android:textColor="#000000"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/masteredWordsCount"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="14sp"-->
+<!--        android:padding="12dp"-->
+<!--         />-->
+
+
+        <Button
+            android:id="@+id/practice_this_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:backgroundTint="#898D8E"
+            android:text="@string/practice_this_bt_text"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>
