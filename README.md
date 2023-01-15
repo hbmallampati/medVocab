@@ -13,25 +13,16 @@ The application ecosystem consists of –
 
 Application wireframes:
 1.	SingUp functionality
+<img width="371" alt="image" src="https://user-images.githubusercontent.com/98439391/212522483-b81a6776-b905-49c8-80c1-87e3c7cd2201.png">
+
 2.	SignIn functionality
-
-                                         
-
+  <img width="362" alt="image" src="https://user-images.githubusercontent.com/98439391/212522540-79c85aa8-f9ef-49c3-9703-1c2417611481.png">                                
 Fig: Sign in screens
+
 3.	Study fragment
  The Study fragment will list the types/ categories of medical vocabulary words in a recycler view as show below – 
-
-
-
-
-
-
-
-
-                                                   
-
-                                 
-
+ <img width="317" alt="image" src="https://user-images.githubusercontent.com/98439391/212522552-e452aa20-381f-40ca-bae7-07972457cec9.png">
+                                
 4.	Medical vocab words are displayed, users progress is tracked, and app has in inbuilt learning algorithm, so you master each word. 
 
                               
@@ -95,11 +86,3 @@ Third part libraries used
 
 Firebase cloustore database schema
  
-
-
- 
-
- 
-
-
-![image](https://user-images.githubusercontent.com/98439391/212522454-9ed1a87c-3d1e-45af-a9a0-06a9b034f01b.png)
