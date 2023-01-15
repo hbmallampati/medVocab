@@ -24,53 +24,14 @@ Fig: Sign in screens
  <img width="317" alt="image" src="https://user-images.githubusercontent.com/98439391/212522552-e452aa20-381f-40ca-bae7-07972457cec9.png">
                                 
 4.	Medical vocab words are displayed, users progress is tracked, and app has in inbuilt learning algorithm, so you master each word. 
-
-                              
-
-
+<img width="466" alt="image" src="https://user-images.githubusercontent.com/98439391/212522624-803c3dda-58a7-4727-ae62-09ab4e34495d.png">
 
 
 5.	Learning algorithm
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="558" alt="image" src="https://user-images.githubusercontent.com/98439391/212522630-049b5eab-6d79-4abf-bed0-408b3fe8bb65.png">
 
 6.	About Fragment and Settings fragment
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/98439391/212522663-b70490f9-fce8-424f-8ee1-7f72755610ee.png">
 
 
 APIs used
@@ -85,4 +46,10 @@ Third part libraries used
 
 
 Firebase cloustore database schema
- 
+ <img width="402" alt="image" src="https://user-images.githubusercontent.com/98439391/212522676-6b62c5cb-065a-4a8a-a822-1c8d609d8a40.png">
+ <img width="374" alt="image" src="https://user-images.githubusercontent.com/98439391/212522680-042a521b-ad05-404f-92e7-5ddfdbd8006e.png">
+ <img width="393" alt="image" src="https://user-images.githubusercontent.com/98439391/212522683-6c8c3815-75b4-45c6-b606-ce0cac18ba82.png">
+
+
+
+
