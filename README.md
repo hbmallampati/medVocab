@@ -12,24 +12,35 @@ The application ecosystem consists of –
 
 ### Application wireframes:
 1.	SingUp functionality
+<p align="center">
 <img width="371" alt="image" src="https://user-images.githubusercontent.com/98439391/212522483-b81a6776-b905-49c8-80c1-87e3c7cd2201.png">
+  </p>
 
 2.	SignIn functionality
+<p align="center">
   <img width="362" alt="image" src="https://user-images.githubusercontent.com/98439391/212522540-79c85aa8-f9ef-49c3-9703-1c2417611481.png">                                Fig: Sign in screens
+  </p>
 
 3.	Study fragment
  The Study fragment will list the types/ categories of medical vocabulary words in a recycler view as show below – 
+ <p align="center">
  <img width="317" alt="image" src="https://user-images.githubusercontent.com/98439391/212522552-e452aa20-381f-40ca-bae7-07972457cec9.png">
+  </p>
                                 
 4.	Medical vocab words are displayed, users progress is tracked, and app has in inbuilt learning algorithm, so you master each word. 
+<p align="center">
 <img width="466" alt="image" src="https://user-images.githubusercontent.com/98439391/212522624-803c3dda-58a7-4727-ae62-09ab4e34495d.png">
+  </p>
 
 5.	Learning algorithm
+<p align="center">
 <img width="558" alt="image" src="https://user-images.githubusercontent.com/98439391/212522630-049b5eab-6d79-4abf-bed0-408b3fe8bb65.png">
+  </p>
 
 6.	About Fragment and Settings fragment
+<p align="center">
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/98439391/212522663-b70490f9-fce8-424f-8ee1-7f72755610ee.png">
-
+  </p>
 
 ### APIs used
 1.	Merriam-Webster’s medical vocabulary dictionary for medical vocabulary terms meanings
