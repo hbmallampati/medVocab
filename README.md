@@ -1,9 +1,8 @@
-MedVocab
-
+# MedVocab
 
 A medical vocabulary learning Android application for the healthcare consumers, students preparing for CMA, and professionals as well as anyone who wants to keep up with medical terms used in today’s healthcare sector. 
 
-Overall ecosystem
+### Overall ecosystem
 The application ecosystem consists of –
 •	Android phone running “MedVocab” application
 •	Firebase authentication gateway for Cloud Firestore authentication. The application has both SignUp and SigIn functionality. 
@@ -11,13 +10,12 @@ The application ecosystem consists of –
 •	Merriam-Webster’s medical dictionary API for fetching medical vocabulary word’s meaning, grammatical details. This is a third part API provided by Merriam Webster, this is an up-to-date dictionary of medical terms and definitions and is designed for health-care professionals or anyone who needs explanations of current medical vocabulary. More than 60,000 entries. Covers the latest brand names and generic equivalents of common drugs.
 •	Merriam-Webster’s medical audio API used to get the medical term’s pronunciation. In the medical audio API pronunciation is provided for most entries.
 
-Application wireframes:
+### Application wireframes:
 1.	SingUp functionality
 <img width="371" alt="image" src="https://user-images.githubusercontent.com/98439391/212522483-b81a6776-b905-49c8-80c1-87e3c7cd2201.png">
 
 2.	SignIn functionality
-  <img width="362" alt="image" src="https://user-images.githubusercontent.com/98439391/212522540-79c85aa8-f9ef-49c3-9703-1c2417611481.png">                                
-Fig: Sign in screens
+  <img width="362" alt="image" src="https://user-images.githubusercontent.com/98439391/212522540-79c85aa8-f9ef-49c3-9703-1c2417611481.png">                                Fig: Sign in screens
 
 3.	Study fragment
  The Study fragment will list the types/ categories of medical vocabulary words in a recycler view as show below – 
@@ -26,7 +24,6 @@ Fig: Sign in screens
 4.	Medical vocab words are displayed, users progress is tracked, and app has in inbuilt learning algorithm, so you master each word. 
 <img width="466" alt="image" src="https://user-images.githubusercontent.com/98439391/212522624-803c3dda-58a7-4727-ae62-09ab4e34495d.png">
 
-
 5.	Learning algorithm
 <img width="558" alt="image" src="https://user-images.githubusercontent.com/98439391/212522630-049b5eab-6d79-4abf-bed0-408b3fe8bb65.png">
 
@@ -34,19 +31,17 @@ Fig: Sign in screens
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/98439391/212522663-b70490f9-fce8-424f-8ee1-7f72755610ee.png">
 
 
-APIs used
+### APIs used
 1.	Merriam-Webster’s medical vocabulary dictionary for medical vocabulary terms meanings
 2.	Merriam-Webster’s medical audio API for fetching mp3 format pronunciation files for medical terminologies
 3.	Firebase authentication for new account creation, sign in with the help of email and password, to create user specific profiles on Firebase cloudstore.
 4.	Firebase cloudstore for storing medical vocabulary terms, storing user progress.
 
-Third part libraries used
+### Third part libraries used
 1.	Retrofit - For creating, sending, and receiving http requests and responses (consuming RESTful web services). For generating GET requests and handling their responses which making API calls to fetch data from Merriam-Webster’s medical dictionary APIs.
 2.	OkHttp - For building dictionary APIs http url, for building http client.
 
-
-Firebase cloustore database schema
-
+### Firebase cloustore database schema
  <img width="402" alt="image" src="https://user-images.githubusercontent.com/98439391/212522676-6b62c5cb-065a-4a8a-a822-1c8d609d8a40.png">
  <img width="374" alt="image" src="https://user-images.githubusercontent.com/98439391/212522680-042a521b-ad05-404f-92e7-5ddfdbd8006e.png">
  <img width="393" alt="image" src="https://user-images.githubusercontent.com/98439391/212522683-6c8c3815-75b4-45c6-b606-ce0cac18ba82.png">
