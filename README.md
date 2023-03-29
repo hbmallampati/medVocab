@@ -3,12 +3,12 @@
 A medical vocabulary learning Android application for the healthcare consumers, students preparing for CMA, and professionals as well as anyone who wants to keep up with medical terms used in today’s healthcare sector. 
 
 ### Overall ecosystem
-The application ecosystem consists of –
+The application ecosystem consists of – <br>
 •	Android phone running “MedVocab” application <br>
-•	Firebase authentication gateway for Cloud Firestore authentication. The application has both SignUp and SigIn functionality. 
-•	Cloud firestore storage unit storing medical vocabulary terms categorized based on level on difficulty. Each user will have their own profile created and stored for them when they SignUp. As users use the application and learn, re-learn, review, master the words their progress is saved in firestore. Users can come back and start learning from where they left. 
-•	Merriam-Webster’s medical dictionary API for fetching medical vocabulary word’s meaning, grammatical details. This is a third part API provided by Merriam Webster, this is an up-to-date dictionary of medical terms and definitions and is designed for health-care professionals or anyone who needs explanations of current medical vocabulary. More than 60,000 entries. Covers the latest brand names and generic equivalents of common drugs.
-•	Merriam-Webster’s medical audio API used to get the medical term’s pronunciation. In the medical audio API pronunciation is provided for most entries.
+•	Firebase authentication gateway for Cloud Firestore authentication. The application has both SignUp and SigIn functionality. <br>
+•	Cloud firestore storage unit storing medical vocabulary terms categorized based on level on difficulty. Each user will have their own profile created and stored for them when they SignUp. As users use the application and learn, re-learn, review, master the words their progress is saved in firestore. Users can come back and start learning from where they left. <br>
+•	Merriam-Webster’s medical dictionary API for fetching medical vocabulary word’s meaning, grammatical details. This is a third part API provided by Merriam Webster, this is an up-to-date dictionary of medical terms and definitions and is designed for health-care professionals or anyone who needs explanations of current medical vocabulary. More than 60,000 entries. Covers the latest brand names and generic equivalents of common drugs. <br>
+•	Merriam-Webster’s medical audio API used to get the medical term’s pronunciation. In the medical audio API pronunciation is provided for most entries. <br>
 
 ### Application wireframes:
 1.	SingUp functionality
